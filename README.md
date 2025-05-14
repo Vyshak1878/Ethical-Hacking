@@ -7,9 +7,11 @@ sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 
 aircrack-ng -w /usr/share/wordlists/rockyou.txt -b 02:1A:11:FF:D9:BD wifi.cap
 
+
 Bluetooth
 
 crackle -i bt.pcap -o dbt.pcap
+
 
 MQTT-IoT
 
